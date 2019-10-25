@@ -1,0 +1,100 @@
+@font-face{
+    font-family: 'TravelingTypewriter';
+    src: url('../polices/TravelingTypewriter.ttf') format('TrueType');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Fragmentcore';
+    src: url('../polices/Fragmentcore.otf') format('OpenType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    animation: animationFrames ease 1s;
+    animation-iteration-count: 1;
+    transform-origin: 50% 50%;
+    animation-fill-mode:forwards;
+}
+@keyframes animationFrames{
+    0% {
+      opacity:0;
+      transform:  translate(0px,-25px)  ;
+    }
+    100% {
+      opacity:1;
+      transform:  translate(0px,0px)  ;
+    }
+  }
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'TravelingTypewriter';
+}
+#headermaintokyo{
+    background-image: url(../images/Tokyo/front.jpg);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#titretokyo{
+    color: rgb(26, 20, 107);
+    font-size: 50px;
+}
+.soustitretokyo{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(26, 20, 107);
+    font-size: 30px;
+}
+#lieuxtokyo{
+    display: flex;
+    flex-direction: column;
+}
+.arlieuxtokyo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: rgb(201, 201, 201);
+}
+.arlieuxtokyo:hover{
+    transform: scale(0.9);
+}
+.imglieuxtokyo{
+    width: 300px;
+    margin-right: 5px;
+}
+#bouffetokyo{
+    display: flex;
+    flex-direction: column;
+}
+.arbouffetokyo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: rgb(201, 201, 201);
+}
+.arbouffetokyo:hover{
+    transform: scale(0.9);
+}
+.imgbouffetokyo{
+    width: 300px;
+    margin-right: 5px;
+}
+#secvideotokyo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#videotokyo{
+    width: 644px;
+    height: 362px;
+    border-radius: 30px;
+}

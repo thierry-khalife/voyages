@@ -1,0 +1,218 @@
+@font-face{
+    font-family: 'TravelingTypewriter';
+    src: url('../polices/TravelingTypewriter.ttf') format('TrueType');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Fragmentcore';
+    src: url('../polices/Fragmentcore.otf') format('OpenType');
+    font-weight: normal;
+    font-style: normal;
+}
+#main-kyoto{
+    background-image: url("../images/Kyoto/fond2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:40px;
+}
+#body-kyoto{
+    background-color:rgb(87, 27, 27);
+}
+#div1-kyoto{
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    background-color:rgba(255, 255, 255, 0.75);
+    animation: apparition 2s 1 0s ease-in-out;
+}
+@keyframes apparition{
+    0%{
+        transform: translateY(150px);
+        opacity: 0;
+        }
+    50%{
+        transform: translateY(50px);
+        opacity: 0;
+        }
+    100%{
+        opacity: 1;
+        }
+}
+#titre-kyoto1{
+    font-family: 'TravelingTypewriter';
+    font-size:70px;
+    color:rgb(87, 27, 27);
+    text-align: center;
+    padding-top:20px;
+}
+#texte-kyoto1{
+    font-family: 'Fragmentcore';
+    font-size:30px;
+    text-align:center;
+    padding-bottom: 30px;
+}
+.div2-kyoto{
+    position: relative;
+    overflow:hidden;
+    padding-bottom: 8%;
+}
+.texte-kyoto2{
+    opacity: 0 ;
+    background-color:rgba(255, 255, 255, 0.75);
+    border-radius:10px;
+    display:none;
+}
+.fleurs-kyoto{
+    z-index: 1;
+    float:right;
+    width:230px;
+    height:auto;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.fleurs-kyoto:hover + .texte-kyoto2{
+  opacity : 1;
+  transition: opacity 1s ease-out;
+  display:block;
+}
+.titre-kyoto{
+    font-family: 'TravelingTypewriter';
+    font-size: 60px;
+    margin: 20px;
+}
+.texte-kyoto{
+    font-family: 'Fragmentcore';
+    font-size: 30px;
+    margin :22px;
+    padding-bottom: 15px;
+}
+#div3-kyoto{
+    position: relative;
+    overflow:hidden;
+    margin: 20px;
+}
+.texte-kyoto3{
+    opacity: 0 ;
+    background-color:rgba(255, 255, 255, 0.75);
+    border-radius: 10px;
+    display:none;
+}
+.pagode{
+    z-index: 1;
+    float:left;
+    width:230px;
+    height:auto;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.pagode:hover + .texte-kyoto3{
+    opacity : 1;
+    transition: opacity 1s ease-out;
+    display:block;
+  }
+#div4-kyoto{
+    position: relative;
+    overflow:hidden;
+    margin: 20px;
+}
+.texte-kyoto4{
+    opacity: 0 ;
+    background-color:rgba(255, 255, 255, 0.75);
+    border-radius:10px;
+    display:none;
+}
+.torii{
+    z-index: 1;
+    float: right;
+    width:500px;
+    height:auto;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.torii:hover + .texte-kyoto4{
+    opacity : 1;
+    transition: opacity 1s ease-out;
+    display:block;
+  }
+#div5-kyoto{
+    background-color:rgba(255, 255, 255, 0.75);
+    border-radius: 40px;
+    margin-top: 40px;
+}
+#div6-kyoto{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+#section1-kyoto{
+    background-color:rgba(255, 255, 255, 0.75);
+    font-family: 'Fragmentcore';
+    font-size: 30px;
+    width: 30%;
+    margin-left:1%;
+    margin-right:1%;
+    margin-top:2%;
+    padding-top:2%;
+    padding-bottom: 2%;
+    padding-left:1%;
+    padding-right:1%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px
+}
+#section2-kyoto{
+    background-color:rgba(255, 255, 255, 0.75);
+    font-family: 'Fragmentcore';
+    font-size: 26px;
+    width: 30%;
+    margin-left:1%;
+    margin-right:1%;
+    margin-top:2%;
+    padding-top:2%;
+    padding-bottom: 2%;
+    padding-left:1%;
+    padding-right:1%;
+}
+#section3-kyoto{
+    background-color:rgba(255, 255, 255, 0.75);
+    font-family: 'Fragmentcore';
+    font-size: 30px;
+    width: 30%;
+    margin-left:1%;
+    margin-right:1%;
+    margin-top:2%;
+    padding-top:2%;
+    padding-bottom: 2%;
+    padding-left:1%;
+    padding-right:1%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#div7-kyoto{
+    background-color:rgba(255, 255, 255, 0.75);
+    border-radius:10px;
+    width:300px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+}
+#titre-kyoto2{
+    font-family: 'TravelingTypewriter';
+    font-size: 60px; 
+    text-align:center;
+    color:rgb(87, 27, 27);
+}
+#video-kyoto{
+    border-radius:40px;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+#map-kyoto{
+    border-radius:40px;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:5%;
+}

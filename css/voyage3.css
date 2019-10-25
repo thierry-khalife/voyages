@@ -1,0 +1,54 @@
+@font-face{
+    font-family: 'TravelingTypewriter';
+    src: url('../polices/TravelingTypewriter.ttf') format('TrueType');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Fragmentcore';
+    src: url('../polices/Fragmentcore.otf') format('OpenType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+main{
+    display: flex;
+    font-family: 'TravelingTypewriter';
+    margin-left: 10px;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+.titre{
+    font-size: 40px;
+    color: lightblue;
+}
+.titre2{
+    font-size: 40px;
+    color: rgb(160, 158, 158);
+}
+.titre3{
+    font-size: 25px;
+    color: lightblue;
+}
+p{
+    color: rgb(18, 11, 39);
+    font-size: 20px;
+}
+img{
+    width: 300px;
+}
+#tableau{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#video{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}

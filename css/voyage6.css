@@ -1,0 +1,154 @@
+@font-face{
+    font-family: 'TravelingTypewriter';
+    src: url('../polices/TravelingTypewriter.ttf') format('TrueType');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Fragmentcore';
+    src: url('../polices/Fragmentcore.otf') format('OpenType');
+    font-weight: normal;
+    font-style: normal;
+}
+#main-cluj{
+    background-image: url("../images/Cluj Napoca/fond.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:40px;
+    margin-bottom: 2%;
+}
+#video-cluj{
+    border-radius:40px;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+#body-cluj{
+    background-color:rgb(185, 164, 95);
+}
+#div1-cluj{
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    background-color:rgba(255, 255, 255, 0.75);
+}
+#titre-cluj{
+    font-family: 'TravelingTypewriter';
+    font-size:70px;
+    color:rgb(125, 126, 63);
+    text-align: center;
+    padding-top:20px;
+    animation: hello 2s 1 0s ease-in-out;
+}
+@keyframes hello{
+    0%{
+        opacity: 1;
+        }
+    50%{
+        opacity: 0;
+        }
+    100%{
+        opacity: 1;
+        }
+}
+#texte-cluj{
+    font-family: 'Fragmentcore';
+    font-size:30px;
+    text-align:center;
+    padding-bottom: 30px;
+}
+#div2-cluj{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top:5%;
+    animation: cluj 5s 1 0s ease-in-out;
+}
+@keyframes cluj{
+    0%{
+        transform: translateX(150px);
+        opacity: 0;
+        }
+    50%{
+        transform: translateX(50px);
+        opacity: 0;
+        }
+    100%{
+        opacity: 1;
+        }
+}
+#div3-cluj{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.img-cluj{
+    width:700px;
+    height:auto;
+    border-radius:10px;
+    filter: blur(3px);
+	transition: .3s ease-in-out;
+}
+.img-cluj:hover{
+    filter: blur(0);
+}
+#div3-cluj{
+    background-color:rgba(255, 255, 255, 0.75);
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    padding-top:2%;
+    padding-right:2%;
+    padding-left:2%;
+}
+.titre-cluj2{
+    font-family: 'TravelingTypewriter';
+    font-size:50px;
+}
+.texte-cluj2{
+    font-family: 'Fragmentcore';
+    font-size:24px;
+}
+#infos-cluj{
+    background-color:rgb(185, 164, 95, 0.75);
+    border-top-right-radius: 40px;
+    padding:2%;
+}
+#div6-cluj{
+    background-color:rgb(185, 164, 95, 0.75);
+    border-bottom-right-radius: 40px;  
+    padding:2%;
+}
+#div-cluj{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    animation: cluj2 5s 1 0s ease-in-out;
+}
+@keyframes cluj2{
+    0%{
+        transform: translateX(-150px);
+        opacity: 0;
+        }
+    50%{
+        transform: translateX(-50px);
+        opacity: 0;
+        }
+    100%{
+        opacity: 1;
+        }
+}
+.section-cluj{
+    font-family: 'Fragmentcore';
+    font-size:24px;
+    padding-top:2%;
+    padding-bottom: 2%; 
+}
+#map-cluj2{
+    border-radius:40px;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}

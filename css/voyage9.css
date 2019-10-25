@@ -1,0 +1,197 @@
+@font-face{
+    font-family: 'TravelingTypewriter';
+    src: url('../polices/TravelingTypewriter.ttf') format('TrueType');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Fragmentcore';
+    src: url('../polices/Fragmentcore.otf') format('OpenType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#head{
+	background-image: url("../images/newyork/newyork.jpg");
+	opacity: 0.8;
+	background-size: 1400px 500px;
+    height: 500px;
+	width: 100%;
+}
+#navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#navigation h1{
+	font-family: 'TravelingTypewriter';
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+}
+#nav{
+	width: 420px;
+	display: flex;
+	justify-content: space-around;
+	background-color: rgba(255,255,255,0.1);
+	border: solid white;
+	border-radius: 20px;
+	padding: 10px;
+	-webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 2s ease-in-out;
+    transition: 2s ease-in-out;
+}
+#nav img{
+    width: 50px;
+    height: 50px;
+}
+#nav img:hover{
+	opacity: 0.3;
+}
+#container{
+	display: flex;
+	justify-content: space-between;
+}
+#container h1{
+	font-family: 'TravelingTypewriter';
+	font-size: 30px;
+	font-weight: bold;
+	color: black;
+}
+#container h2{
+	font-family: 'TravelingTypewriter';
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	font-style: italic;
+}
+#container p{
+	font-family: 'Fragmentcore';
+	font-size: 15px;
+	color: black;
+}
+#container img{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+}
+#container img:hover{
+	opacity: 0.3;
+}
+#empty{
+	width: 50%;
+	background-color: white;
+	background-image: url("../images/newyork/flags.png");
+	background-size: contain;
+	opacity: 0.5;
+	-webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 2s ease-in-out;
+    transition: 2s ease-in-out;
+}
+#right{
+	background-color: #3c3b6e;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+	padding: 10px;
+	-webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 2s ease-in-out;
+    transition: 2s ease-in-out;
+}
+#right h1{
+	font-family: 'TravelingTypewriter';
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+}
+#right h2{
+	font-family: 'TravelingTypewriter';
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	font-style: italic;
+}
+#right p{
+	font-family: 'Fragmentcore';
+	font-size: 15px;
+	color: white;
+}
+#left{
+	background-color: #b22234;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+	padding: 10px;
+	-webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 2s ease-in-out;
+    transition: 2s ease-in-out;
+}
+#multimedias{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#videos{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+#photos{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+iframe{
+	margin: 10px;
+}
+#photos img{
+	border-radius: 20px;
+    height: 200px;
+    width: 200px;
+}
+.gallery {
+  margin: 5px;
+  border: 1px solid white;
+  border-radius: 20px;
+  height: 200px;
+  width: 200px;
+}
+.gallery:hover {
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.gallery img {
+  border-radius: 20px;
+  height: 200px;
+  width: 200px;
+}
+#links{
+     text-align: center;
+}
+#links a:link{
+	font-family: 'Fragmentcore';
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+}
+#links a:active{
+	font-family: 'Fragmentcore';
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+}
+#links a:visited{
+	font-family: 'Fragmentcore';
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+}
+#links a:hover{
+	opacity: 0.3;
+}

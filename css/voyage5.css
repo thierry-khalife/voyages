@@ -1,0 +1,172 @@
+@font-face{
+    font-family: 'TravelingTypewriter';
+    src: url('../polices/TravelingTypewriter.ttf') format('TrueType');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Fragmentcore';
+    src: url('../polices/Fragmentcore.otf') format('OpenType');
+    font-weight: normal;
+    font-style: normal;
+}
+#main-sf{
+    background-image: url("../images/San Francisco/fond.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:40px;
+}
+#body-sf{
+    background-color:rgb(63, 90, 116);
+}
+#div1-sf{
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    background-color:rgba(255, 255, 255, 0.75);
+}
+#titre-sf{
+    font-family: 'TravelingTypewriter';
+    font-size:70px;
+    color:rgb(63, 90, 116);
+    text-align: center;
+    padding-top:20px;
+}
+#texte-sf{
+    font-family: 'Fragmentcore';
+    font-size:30px;
+    text-align:center;
+    padding-bottom: 30px;
+}
+.titre-sf2{
+    font-family: 'TravelingTypewriter';
+    font-size:50px;
+    color:rgb(63, 90, 116);
+}
+.texte-sf2{
+    font-family: 'Fragmentcore';
+    font-size:30px;
+}
+#div-goldengate{
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+    background-color:rgba(255, 255, 255, 0.75);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+#goldengate{
+    z-index:1;
+    border-radius:50px;
+    width:30%;
+}
+#texte-goldengate{
+    display:none;
+}
+#goldengate:hover + #texte-goldengate{
+    display:block;
+    animation: hola 2s ease-in-out;
+  }
+  @keyframes hola{
+    0% {transform: translateX(-150px);
+      opacity: 0;}
+  }
+  50%{
+          transform: translateX(-50px);
+          opacity: 0.5;
+          }
+      100%{
+          opacity: 1;
+          }
+#div-maison{
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+    background-color:rgba(255, 255, 255, 0.75);
+}
+#maison{
+    z-index:1;
+    border-radius:50px;
+    width:30%;
+}
+#texte-house{
+    display:none;
+}
+#maison:hover + #texte-house{
+    display:block;
+    animation: hola 2s ease-in-out;
+  }
+  @keyframes hola{
+    0% {transform: translateX(-150px);
+      opacity: 0;}
+  }
+  50%{
+          transform: translateX(-50px);
+          opacity: 0.5;
+          }
+      100%{
+          opacity: 1;
+          }
+#div-tramway{
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+    background-color:rgba(255, 255, 255, 0.75);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+#tramway{
+    z-index:1;
+    border-radius:50px;
+    width:30%;
+}
+#texte-tramway{
+    display:none;
+}
+#tramway:hover + #texte-tramway{
+    display:block;
+    animation: hola 2s ease-in-out;
+  }
+  @keyframes hola{
+    0% {transform: translateX(-150px);
+      opacity: 0;}
+  }
+  50%{
+          transform: translateX(-50px);
+          opacity: 0.5;
+          }
+      100%{
+          opacity: 1;
+          }
+#info-sf{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:2%;
+}
+.section-sf{
+    background-color:rgb(63, 90, 116);
+    font-family: 'Fragmentcore';
+    font-size:30px;
+    color:white;
+    padding:20px;
+    margin:1%;
+    border-radius:20px;
+}
+#anecdote-sf{
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color:rgba(255, 255, 255, 0.75);
+}
+#video-sf{
+    border-radius:40px;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+#map-sf{
+    border-radius:40px;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}

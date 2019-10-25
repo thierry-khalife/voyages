@@ -1,0 +1,170 @@
+@font-face{
+    font-family: 'TravelingTypewriter';
+    src: url('../polices/TravelingTypewriter.ttf') format('TrueType');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Fragmentcore';
+    src: url('../polices/Fragmentcore.otf') format('OpenType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#headlb{
+	background-image: url("../images/milan/milano.jpg");
+	opacity: 0.8;
+	background-size: 1400px 500px;
+    height: 500px;
+	width: 100%;
+}
+#navigationlb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 100px;
+}
+#navigationlb h1{
+	font-family: 'TravelingTypewriter';
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+	margin-left: 150px;
+}
+#navlb{
+	width: 420px;
+	display: flex;
+	justify-content: space-around;
+	background-color: rgba(255,255,255,0.1);
+	border: solid white;
+	border-radius: 20px;
+	padding: 10px;
+	-webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 2s ease-in-out;
+    transition: 2s ease-in-out;
+}
+#navlb img{
+    width: 50px;
+    height: 50px;
+}
+#navlb img:hover{
+	opacity: 0.3;
+}
+#container{
+	display: flex;
+	justify-content: space-between;
+}
+#container h1{
+	font-family: 'TravelingTypewriter';
+	font-size: 30px;
+	font-weight: bold;
+	color: black;
+}
+#container h2{
+	font-family: 'TravelingTypewriter';
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	font-style: italic;
+}
+#container p{
+	font-family: 'Fragmentcore';
+	font-size: 15px;
+	color: black;
+}
+#container img{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+}
+#container img:hover{
+	opacity: 0.3;
+}
+#container a:link{
+	font-family: 'Fragmentcore';
+	font-size: 15px;
+	color: black;
+}
+#container a:visited{
+	font-family: 'Fragmentcore';
+	font-size: 15px;
+	color: black;
+}
+#container a:active{
+	font-family: 'Fragmentcore';
+	font-size: 15px;
+	color: black;
+}
+#container a:hover{
+	opacity: 0.3;
+}
+#left{
+	background-color: rgba(0,128,0,0.5);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 40%;
+	padding: 20px;
+	-webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 2s ease-in-out;
+    transition: 2s ease-in-out;
+}
+#right{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	background-color: rgba(255,0,0,0.5);
+	width: 40%;
+	padding: 20px;
+	-webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 2s ease-in-out;
+    transition: 2s ease-in-out;
+}
+.gallery {
+  margin: 5px;
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 400px;
+  height: 200px;
+}
+.gallery:hover {
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.gallery img {
+  border-radius: 20px;
+  width: 400px;
+  height: 200px;
+}
+.video{
+	padding: 10px;
+}
+#links{
+     text-align: center;
+}
+#links a:link{
+	font-family: 'Fragmentcore';
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+}
+#links a:active{
+	font-family: 'Fragmentcore';
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+}
+#links a:visited{
+	font-family: 'Fragmentcore';
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+}
+#links a:hover{
+	opacity: 0.3;
+}

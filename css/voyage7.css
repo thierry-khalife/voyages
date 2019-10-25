@@ -1,0 +1,267 @@
+@font-face{
+    font-family: 'TravelingTypewriter';
+    src: url('../polices/TravelingTypewriter.ttf') format('TrueType');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Fragmentcore';
+    src: url('../polices/Fragmentcore.otf') format('OpenType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#headlb{
+	background-image: url("../images/lebanon/lebanon2.jpg");
+	opacity: 0.8;
+	background-size: 1400px 500px;
+    height: 500px;
+	width: 100%;
+	border-radius: 20px;
+}
+#navigationlb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#navigationlb h1{
+	font-family: 'TravelingTypewriter';
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+}
+#navlb{
+	width: 420px;
+	display: flex;
+	justify-content: space-around;
+	background-color: rgba(255,255,255,0.1);
+	border: solid white;
+	border-radius: 20px;
+	padding: 10px;
+	-webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 2s ease-in-out;
+    transition: 2s ease-in-out;
+}
+#navlb img{
+    width: 50px;
+    height: 50px;
+}
+#navlb img:hover{
+	opacity: 0.3;
+}
+#discoverlb{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: rgba(255,0,0,0.7);;
+	border: solid white;
+	border-radius: 20px;
+	font-family: 'Fragmentcore';
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+#discoverlb img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+#discoverlb img:hover{
+ transform: scale(1.5);
+}
+#discoverlb h1{
+	font-family: 'TravelingTypewriter';
+	font-size: 40px;
+	font-weight: bold;
+}
+#discoverlb h2{
+	font-family: 'TravelingTypewriter';
+	font-size: 30px;
+	font-weight: bold;
+}
+#discoverlb p{
+	font-size: 20px;
+}
+#descriptiflb{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+}
+#raisonslb{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+}
+#conseilslb{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+}
+#monuments{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgba(255,255,255,0.3);
+	border-radius: 20px;
+	padding: 10px;
+	font-family: 'Fragmentcore';
+	color: red;
+	text-align: center;
+}
+#monuments h1{
+	font-family: 'TravelingTypewriter';
+	font-size: 30px;
+	font-weight: bold;
+}
+#monuments h2{
+	font-family: 'TravelingTypewriter';
+	font-weight: bold;
+	background-color: rgba(255,0,0,0.1);
+}
+#monuments p{
+	font-size: 20px;
+}
+#villes{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+	text-align: center;
+}
+#villes img{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    padding: 10px;
+}
+#villes img:hover{
+ transform: scale(1.5);
+}
+#ville1{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#ville2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#ville3{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#mediaslb{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: rgba(255,0,0,0.7);;
+	border: solid white;
+	border-radius: 20px;
+	font-family: 'Fragmentcore';
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+#mediaslb h1{
+	font-family: 'TravelingTypewriter';
+	font-size: 30px;
+	font-weight: bold;
+}
+#imageslb{
+	margin-left: 30px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.gallerylb {
+  margin: 5px;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 180px;
+}
+.gallerylb:hover {
+  border: 1px solid red;
+  border-radius: 10px;
+}
+.gallerylb img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+#videoslb{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+}
+#video{
+	border: solid white;
+}
+#cuisinelb{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+#cuisinelb img{
+	width: 200px;
+	height: 200px;
+}
+#cuisinelb h1{
+	font-family: 'TravelingTypewriter';
+	font-size: 30px;
+	font-weight: bold;
+	color: red;
+}
+#liensutileslb{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: rgba(255,0,0,0.7);
+	border: solid white;
+	border-radius: 20px;
+	font-family: 'Fragmentcore';
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+#liensutileslb h1{
+	font-family: 'TravelingTypewriter';
+	font-size: 30px;
+	font-weight: bold;
+}
+#liensutileslb a:link{
+	font-family: 'TravelingTypewriter';
+	font-size: 30px;
+	text-decoration: none;
+	color: white;
+	opacity: 0.7;
+}
+#liensutileslb a:active{
+	font-family: 'TravelingTypewriter';
+	font-size: 30px;
+	color: white;
+}
+#liensutileslb a:visited{
+	font-family: 'TravelingTypewriter';
+	font-size: 30px;
+	color: white;
+}
+#liensutileslb a:hover{
+	opacity: 1;
+}
